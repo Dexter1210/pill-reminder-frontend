@@ -41,3 +41,8 @@
     white-space: nowrap;
     width: 1%;
 }
+
+.medical-history-table{
+  width: 1500px !important;
+    overflow: auto;
+}

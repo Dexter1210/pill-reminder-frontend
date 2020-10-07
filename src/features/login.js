@@ -92,7 +92,7 @@ export default function Login() {
             <button type="button" className="btn btn-success" onClick={handleSubmit} >Sign in</button>
           </div>
           <div className="d-flex mt-4 justify-content-around">
-            <input type="button" value="Forgot password" className="btn btn-secondary"/>
+            {/* <input type="button" value="Forgot password" className="btn btn-secondary"/> */}
             <Link to="/register">New User</Link>
           </div>
         </form>

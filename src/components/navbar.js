@@ -9,6 +9,7 @@ export default function NavBar({title}) {
     const handleSignOut = (e) => {
       e.preventDefault();
       localStorage.removeItem(Constant.AUTH_TOKEN);
+      localStorage.removeItem(Constant.USER_ID);
       setCurrentUserState(state => ({
         ...state,
         isLoggedIn: false,
